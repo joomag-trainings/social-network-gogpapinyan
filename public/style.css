@@ -1,0 +1,184 @@
+body {
+    background-color: burlywood;
+}
+.welcome{
+    margin-top: -150px;
+    margin-left: 500px;
+    font-size: 40px;
+    color: darkblue;
+}
+#get_started {
+    text-decoration: none;
+}
+#footer {
+    margin-top:35px;
+    height: 80px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#socials {
+    align-self: center;
+    width: 50%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+
+}
+#socials a{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.fa {
+    width: 20px;
+    height:20px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #fff;
+    color: gray;
+
+}
+.fa:hover {
+    opacity: 0.5;
+}
+#footer p{
+    color: #fff;
+    font-size: 12px;
+}
+#signin_header {
+    background-color: aqua;
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    justify-content: center;
+}
+#signin_header div{
+    flex-grow: 1;
+    margin: auto;
+}
+#signin_header .logo{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.title {
+    font-weight: bold;
+    color: #fff;
+    font-size: x-large;
+    text-decoration: none;
+}
+.logo img {
+    height: 60px;
+    width: 60px;
+}
+#wrapper_signin {
+    display: flex;
+    height: 600px;
+    background-image: url("backgroundsignin.jpg");
+    background-size: cover;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#signup_form {
+    background-color: antiquewhite;
+    border-radius: 7px;
+    margin-top: 100px;
+    margin-left: 800px;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+#signup_form input {
+    margin-left: 50px;
+}
+.errors {
+    color: red;
+    font-size: 12px;
+}
+#header_timeline {
+    padding-top: 10px;
+    background-color: darkblue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 3px;
+}
+#title {
+    margin-left: -150px;
+    margin-top: 0px;
+}
+#wrapper_timeline {
+    height: 500%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#profile_wrapper {
+
+    width: 80%;
+    background-color: gray;
+    height: 600px;
+    border-radius: 4px;
+
+}
+#cover_photo {
+    width:100%;
+    height: 250px;
+    border-radius: 9px;
+
+}
+#profile_photo_frame {
+    border-style: double;
+    position: relative;
+    padding: 14px;
+    background-color: #d1e7f4;
+    width: 84px;
+    height:84px;
+    margin-top: -75px;
+    z-index: 2;
+    margin-left:20px;
+    float:left;
+}
+#profile_photo {
+    width:70px;
+    height:70px;
+}
+#profile_name{
+
+    margin-top: 20px;
+    margin-left: 6px;
+    color: antiquewhite;
+
+}
+#friends_btn,#photos_btn {
+    float: left;
+    margin-left:20%;
+    margin-top: 10%;
+    background-color: burlywood;
+    border-radius: 6px;
+    font-size: 30px;
+}
